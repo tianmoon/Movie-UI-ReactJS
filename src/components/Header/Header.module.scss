@@ -1,0 +1,34 @@
+@use "../../styles/variables" as vars;
+
+.header {
+  background-color: vars.$primary-color;
+  color: white;
+  height: 64px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 40px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: vars.$secondary-color;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+
+  a {
+    font-size: 15px;
+    font-weight: 600;
+
+    &:hover {
+      color: vars.$secondary-color;
+    }
+  }
+}

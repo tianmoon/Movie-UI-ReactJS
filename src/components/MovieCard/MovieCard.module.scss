@@ -1,0 +1,39 @@
+.card {
+  width: 160px;
+  flex-shrink: 0;
+  overflow: hidden;
+
+  img,
+  .noPoster {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .noPoster {
+    display: grid;
+    place-items: center;
+    background: #eee;
+  }
+}
+
+.info {
+  padding: 10px 4px;
+
+  h3 {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+
+  p {
+    font-size: 13px;
+    color: #777;
+  }
+
+  span {
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: bold;
+  }
+}

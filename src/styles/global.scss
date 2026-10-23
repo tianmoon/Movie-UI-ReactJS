@@ -1,0 +1,13 @@
+@use "./variables" as vars;
+@use "./reset";
+
+body {
+  background-color: vars.$background-color;
+  color: vars.$text-color;
+}
+
+.container {
+  max-width: vars.$container-width;
+  margin: 0 auto;
+  padding: 0 20px;
+}
